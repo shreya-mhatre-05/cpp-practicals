@@ -11,3 +11,16 @@ input/output using a simple student result calculator.
 **Run:** `./fundamentals`
 
 ## Sample Output
+
+~~~
+Enter student name: shreya
+Enter marks in 3 subjects (out of 100): 78 65 82
+
+----- Result -----
+Name    : shreya
+Total   : 225 / 300
+Average : 75
+Grade   : A
+Status  : PASS
+Total % 7 = 1
+~~~
