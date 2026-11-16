@@ -62,3 +62,11 @@ inherited members each class can access.
 
 **Run:** `./inheritance`
 
+## Practical 06: Runtime Polymorphism and Abstract Classes
+An abstract Shape class with Circle, Rectangle and Triangle, each
+implementing area(). Shape pointers call the correct area() at runtime.
+
+**Compile:** `g++ -std=c++17 06_polymorphism.cpp -o polymorphism`
+
+**Run:** `./polymorphism`
+
