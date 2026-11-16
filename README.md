@@ -34,4 +34,13 @@ balance) and public functions (deposit, withdraw, display).
 
 **Private vs public:** Private members can only be used inside the class,
 which protects the data from invalid changes. Public members are the safe
-way for other code to use the object, and they check values first.
+way for other code to use the object, and they check values first.## Practical 03: Constructors and Rule of Five
+An IntArray class that owns a dynamic array and implements the default,
+parameterized, copy and move constructors, copy and move assignment, and
+the destructor.
+
+**Compile:** `g++ -std=c++17 03_rule_of_five.cpp -o rule_of_five`
+
+**Run:** `./rule_of_five`
+
+
