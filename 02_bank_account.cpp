@@ -81,3 +81,26 @@ int main() {
 
     return 0;
 }
+**Sample Output:**
+
+~~~
+--- Account 1 ---
+Account No : 101
+Holder     : Shreya
+Balance    : 5000
+Deposited 2000 successfully.
+Withdrew 1500 successfully.
+Account No : 101
+Holder     : Shreya
+Balance    : 5500
+
+--- Account 2 ---
+Account No : 102
+Holder     : Rahul
+Balance    : 1000
+Insufficient balance. Withdrawal failed.
+Deposited 500 successfully.
+Account No : 102
+Holder     : Rahul
+Balance    : 1500
+~~~
