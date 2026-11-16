@@ -53,3 +53,12 @@ destroyed.
 
 **Run:** `./smart_pointers`
 
+## Practical 05: Single and Multilevel Inheritance
+University example: Person -> Student -> GraduateStudent. Shows single and
+multilevel inheritance, constructor and destructor order, and which
+inherited members each class can access.
+
+**Compile:** `g++ -std=c++17 05_inheritance.cpp -o inheritance`
+
+**Run:** `./inheritance`
+
