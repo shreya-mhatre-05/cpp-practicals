@@ -24,3 +24,14 @@ Grade   : A
 Status  : PASS
 Total % 7 = 1
 ~~~
+## Practical 02: Classes, Access Specifiers and Member Functions
+A BankAccount class with private data (account number, holder name,
+balance) and public functions (deposit, withdraw, display).
+
+**Compile:** `g++ 02_bank_account.cpp -o bank_account`
+
+**Run:** `./bank_account`
+
+**Private vs public:** Private members can only be used inside the class,
+which protects the data from invalid changes. Public members are the safe
+way for other code to use the object, and they check values first.
