@@ -44,3 +44,12 @@ the destructor.
 **Run:** `./rule_of_five`
 
 
+## Practical 04: RAII and Smart Pointers
+Compares raw pointers, unique_ptr (single owner) and shared_ptr (shared
+ownership) using a Resource class that prints when it is created and
+destroyed.
+
+**Compile:** `g++ -std=c++17 04_smart_pointers.cpp -o smart_pointers`
+
+**Run:** `./smart_pointers`
+
