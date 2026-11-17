@@ -85,4 +85,13 @@ and returns them through a common Vehicle interface.
 **Compile:** `g++ -std=c++17 08_factory_pattern.cpp -o factory`
 
 **Run:** `./factory`
+## Practical 09: Generic Stack Using Templates
+A Stack<T> class template (backed by std::vector) tested with int, float
+and std::string, including empty-stack error handling.
+
+**Compile:** `g++ -std=c++17 09_template_stack.cpp -o template_stack`
+
+**Run:** `./template_stack`
+
+
 
