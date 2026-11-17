@@ -70,3 +70,11 @@ implementing area(). Shape pointers call the correct area() at runtime.
 
 **Run:** `./polymorphism`
 
+## Practical 07: Function and Operator Overloading
+Overloaded add() functions for int, double, three ints and strings, and a
+ComplexNumber class with overloaded +, -, == and << operators.
+
+**Compile:** `g++ -std=c++17 07_overloading.cpp -o overloading`
+
+**Run:** `./overloading`
+
