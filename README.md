@@ -99,6 +99,14 @@ InvalidAmount, InsufficientFunds) for deposits, withdrawals and transfers.
 **Compile:** `g++ -std=c++17 10_custom_exceptions.cpp -o custom_exceptions`
 
 **Run:** `./custom_exceptions`
+## Practical 11: CSV Student Records with File I/O
+Writes and reads students.csv with fstream (format: id,name,marks), skips
+malformed lines, and demonstrates tellg(), seekg(), tellp() and seekp().
+
+**Compile:** `g++ -std=c++17 11_csv_fileio.cpp -o csv_fileio`
+
+**Run:** `./csv_fileio`
+
 
 
 
