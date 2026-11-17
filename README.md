@@ -78,3 +78,11 @@ ComplexNumber class with overloaded +, -, == and << operators.
 
 **Run:** `./overloading`
 
+## Practical 08: Factory Design Pattern
+A VehicleFactory creates Car, Bike or Truck objects from a requested type
+and returns them through a common Vehicle interface.
+
+**Compile:** `g++ -std=c++17 08_factory_pattern.cpp -o factory`
+
+**Run:** `./factory`
+
