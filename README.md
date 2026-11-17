@@ -92,6 +92,15 @@ and std::string, including empty-stack error handling.
 **Compile:** `g++ -std=c++17 09_template_stack.cpp -o template_stack`
 
 **Run:** `./template_stack`
+## Practical 10: Custom Exceptions
+A BankAccount with a custom exception hierarchy (BankException,
+InvalidAmount, InsufficientFunds) for deposits, withdrawals and transfers.
+
+**Compile:** `g++ -std=c++17 10_custom_exceptions.cpp -o custom_exceptions`
+
+**Run:** `./custom_exceptions`
+
+
 
 
 
